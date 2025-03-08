@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int period, year;
+    float amount, inrate, value;
+
+    printf("Enter principal amount, annual interest rate (in percentage), and period (in years):\n");
+    scanf("%f %f %d", &amount, &inrate, &period);
+
+    // Convert interest rate from percentage to decimal
+    inrate = inrate / 100.0;
+
+    printf("\n");
+    year = 1;
+
+    while (year <= period) {
+        amount = amount * (1 + inrate);  // Compound interest formula for yearly compounding
+        printf("Year: %2d  Amount: Rs %8.2f\n", year, amount);
+        year++;
+    }
+
+    return 0;
+}
