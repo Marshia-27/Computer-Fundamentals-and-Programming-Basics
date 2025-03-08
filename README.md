@@ -1,4 +1,4 @@
-### Problem No: 1(Write a C program to find the greatest amongst three numbers)
+### 🔍Problem No: 1(Write a C program to find the greatest amongst three numbers)
 Code Explanation
 1️⃣ Taking Input**
 - The program starts by declaring three integer variables: `a`, `b`, and `c`.
@@ -20,7 +20,7 @@ Code Explanation
           Year:  4  Amount: Rs 10056.12
           Year:  5  Amount: Rs 10070.20
 
-### Problem No: 2(Write a C program to calculate Interest.)
+### 🔍Problem No: 2(Write a C program to calculate Interest.)
 
 ## 🔍 Code Explanation
 ### **1️⃣ Taking Input**
