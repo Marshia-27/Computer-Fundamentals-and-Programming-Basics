@@ -1,1 +1,22 @@
-# Computer-Fundamentals-and-Programming-Basics
+### Problem No: 1(Write a C program to find the greatest amongst three numbers)
+Code Explanation
+1️⃣ Taking Input**
+- The program starts by declaring three integer variables: `a`, `b`, and `c`.
+- It prompts the user to enter three numbers using `printf()`.
+- `scanf("%d%d%d", &a, &b, &c);` is used to read three integer values.
+2️⃣ Checking the Largest Number**
+- The program uses **nested `if-else` statements** to compare the numbers:
+  - If `a > b`, check if `a > c`. If true, `a` is the largest.
+  - Otherwise, `c` is the largest.
+  - If `b > c`, then `b` is the largest.
+  - Otherwise, `c` is the largest.
+3️⃣ Displaying the Result**
+- The program prints the **largest number** using `printf()`.
+  
+**Expected Result:
+  Input: 10000  0.14  5
+  Output: Year:  1  Amount: Rs 10014.00
+          Year:  2  Amount: Rs 10028.02
+          Year:  3  Amount: Rs 10042.06
+          Year:  4  Amount: Rs 10056.12
+          Year:  5  Amount: Rs 10070.20
