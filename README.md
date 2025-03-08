@@ -20,6 +20,7 @@
           Year:  4  Amount: Rs 10056.12
           Year:  5  Amount: Rs 10070.20
 
+
 ### 🔍Problem No: 2(Write a C program to calculate Interest.)
 **## Code Explanation**
 1️⃣ Taking Input**
