@@ -1,4 +1,4 @@
-### Problem No: 1(Write a C program to find the greatest amongst three numbers)
+**### Problem No: 1(Write a C program to find the greatest amongst three numbers)**
 Code Explanation
 1️⃣ Taking Input**
 - The program starts by declaring three integer variables: `a`, `b`, and `c`.
