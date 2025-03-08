@@ -1,5 +1,5 @@
 ### 🔍Problem No: 1(Write a C program to find the greatest amongst three numbers)
-Code Explanation
+**## Code Explanation**
 1️⃣ Taking Input**
 - The program starts by declaring three integer variables: `a`, `b`, and `c`.
 - It prompts the user to enter three numbers using `printf()`.
@@ -21,16 +21,18 @@ Code Explanation
           Year:  5  Amount: Rs 10070.20
 
 ### 🔍Problem No: 2(Write a C program to calculate Interest.)
-
-## 🔍 Code Explanation
-### **1️⃣ Taking Input**
+**## Code Explanation**
+1️⃣ Taking Input**
 - The program declares variables:
   - `amount` (Principal amount)
   - `inrate` (Annual interest rate in percentage)
   - `period` (Number of years)
 - It prompts the user to enter these values using `printf()` and reads them using `scanf()`.
-
-### **2️⃣ Interest Rate Conversion**
+2️⃣ Interest Rate Conversion**
 - Since interest rates are usually given as a percentage, the program converts it into decimal form:
   ```c
   inrate = inrate / 100.0;
+3️⃣ Compound Interest Calculation
+- amount = amount * (1 + inrate);
+4️⃣ Displaying the Result
+- printf("Year: %2d  Amount: Rs %8.2f\n", year, amount);
