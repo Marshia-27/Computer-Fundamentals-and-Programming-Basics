@@ -31,8 +31,7 @@
 - It prompts the user to enter these values using `printf()` and reads them using `scanf()`.
 2️⃣ Interest Rate Conversion**
 - Since interest rates are usually given as a percentage, the program converts it into decimal form:
-  ```c
-  inrate = inrate / 100.0;
+ -  inrate = inrate / 100.0;
 3️⃣ Compound Interest Calculation
 - amount = amount * (1 + inrate);
 4️⃣ Displaying the Result
